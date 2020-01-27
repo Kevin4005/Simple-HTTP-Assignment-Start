@@ -1,0 +1,30 @@
+{
+  "name": "simplehttphw",
+  "version": "1.0.0",
+  "engines": {
+    "node": "13.7.0" ,
+    "npm": "6.13.6"      
+  },
+  "description": "HTTP homework",
+  "main": "index.js",
+  "scripts": {
+	"start": "node ./src/server.js",
+	"pretest": "eslint ./src --fix",
+	"test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevin4005/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Kevin Lin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kevin4005/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/Kevin4005/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0"
+  }
+}
